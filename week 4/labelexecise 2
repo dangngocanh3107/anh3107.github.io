@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Merger cell in table </title>
+    </head>
+    <body>
+        <table> border="1" align="center"</table>
+            <caption align="center">
+                <h3>My Company Limited</h3>
+            </caption>
+            <tr>
+                <th colspan="2" &nbsp;</th>
+                    <th>Clips</th>
+                <th>Staples</th>
+                <th>Pens</th>
+                </tr>
+                <tr>
+                    <td rowsapn="2">Quater1</td>
+                <td>Feb</td>
+                <td>3000</td>
+                <td>2500</td>
+                <td>4000</td>
+                </tr>
+                <tr>
+                    <td>March</td>
+                    <td>3200</td>
+                    <td>2500</td>
+                    <td>4050</td>
+                    </tr> 
+                    <tr>
+                        <td rowspan="2">Quarter 2</td>
+                        <td>April</td>
+                        <td>3200</td>
+                        <td>1500</td>
+                        <td>7000</td>
+                        </tr>
+                        <tr>
+                            <td>May</td>
+                            <td>1900</td>
+                            <td>2500</td>
+                            <td>4000</td>
+                            </tr>  
+                        </table>
+                    </body>
+                    </html>      
+
+
