@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content=""text charset="utf-8" />
+   
+    <title>ex02</title>
+</head>
+<body>
+    <script language="JavaScript">
+        var txta = prompt("Enter number A");
+        var txtb = prompt("Enter number B");
+
+        if(txta == null || txtb == "" || isNaN(txta)) {
+            alert("Number A is formatted incorrectly");
+        } else if (txtb == null || txtb == "" || isNaN(txtb)) {
+            alert("Number B is formatted incorrectly");
+        } else {
+            var result = parseFloat(txta) + parseFloat(txtb);
+            alert("Result:\n" + 
+            txta + " + "+" txtb + " = " + result);
+        }
+        
+    </script>
+</body>
+</html>
